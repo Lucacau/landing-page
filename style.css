@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
 *{
     margin: 0;
@@ -57,7 +57,6 @@ body{
     font-weight: 400;
     font-size: 64px;
     color: #FFF2E7;
-    height: 24px;
 }
 .subtitulo{
     font-family: 'sarala', sans-serif;
