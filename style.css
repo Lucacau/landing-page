@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap')
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.logoBaleras{
+    height: 72px;
+}
+.logoBaleras:hover{
+    cursor: pointer;
+}
+.menuPrincipal{
+    display: flex;
+    gap: 32px;
+}
+.item-do-menu{
+    font-family: 'Sarala', sans-serif;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+}
+.item-do-menu:hover{
+    color: rgb(231, 210, 191)
+}
+.conteudo{
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+}
+.conteudo-cima{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.escritas{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+    height: 24px;
+}
+.subtitulo{
+    font-family: 'sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ecd6c4
+}
+.botao{
+    background-color: #ecd6c4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+.botao:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+    animation: pop;
+    animation-duration: 2s;
+    cursor: pointer;
+}
+.ballebot-na-esquerda{
+    height: 400px;
+}
+.conteudo-baixo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+}
+.titulo-sec{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous' cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+    margin-bottom: 24px;
+}
+.paragrafo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font size: 24px;
+    color: #ecd6ec
+}
+.pezinho{
+    padding: 32px;
+    border-top: 0.4px solid #fff2e7;
+}
+.imagemBallerini{
+    height: 48px;
+    display: block;
+    margin: 0 auto
+}
+@keyframes pop{
+    0%{transform: scale(1.0);}
+    50%{transform: scale(1.3);}
+    100%{transform: scale(1.0);}
+}
